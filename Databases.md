@@ -225,7 +225,12 @@ testing with databases, database table manipulations, etc.
   on ODBC databases, and allows R code within SQL scripts.
 - The `r pkg("octopus")` package provides an interactive shiny application for 
   database management to view tables and schemas, upload files, send queries,
-  and more. 
+  and more.
+- The `r pkg("xgb2sql")` package enables in-database scoring of `r pkg("xgboost")` models built in R,
+  by translating trained model objects into SQL query.
+- The `r pkg("orbital")` package turns `r pkg("tidymodels")` workflows into objects containing the
+  sufficient sequential equations to perform predictions. These smaller objects allow for
+  low dependency prediction locally or directly in databases.
 
 
 ### Links
